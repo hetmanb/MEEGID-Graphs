@@ -1,0 +1,598 @@
+<!doctype HTML>
+<meta charset = 'utf-8'>
+<html>
+  <head>
+    <link rel='stylesheet' href='/Library/Frameworks/R.framework/Versions/3.1/Resources/library/rCharts/libraries/nvd3/css/nv.d3.css'>
+    <link rel='stylesheet' href='/Library/Frameworks/R.framework/Versions/3.1/Resources/library/rCharts/libraries/nvd3/css/rNVD3.css'>
+    
+    <script src='/Library/Frameworks/R.framework/Versions/3.1/Resources/library/rCharts/libraries/nvd3/js/jquery-1.8.2.min.js' type='text/javascript'></script>
+    <script src='/Library/Frameworks/R.framework/Versions/3.1/Resources/library/rCharts/libraries/nvd3/js/d3.v3.min.js' type='text/javascript'></script>
+    <script src='/Library/Frameworks/R.framework/Versions/3.1/Resources/library/rCharts/libraries/nvd3/js/nv.d3.min-new.js' type='text/javascript'></script>
+    <script src='/Library/Frameworks/R.framework/Versions/3.1/Resources/library/rCharts/libraries/nvd3/js/fisheye.js' type='text/javascript'></script>
+    
+    <style>
+    .rChart {
+      display: block;
+      margin-left: auto; 
+      margin-right: auto;
+      width: 800px;
+      height: 400px;
+    }  
+    </style>
+    
+  </head>
+  <body >
+    
+    <div id = 'chart35d3d4dcf4e' class = 'rChart nvd3'></div>    
+    <script type='text/javascript'>
+ $(document).ready(function(){
+      drawchart35d3d4dcf4e()
+    });
+    function drawchart35d3d4dcf4e(){  
+      var opts = {
+ "dom": "chart35d3d4dcf4e",
+"width":    800,
+"height":    400,
+"x": "Year",
+"y": "value",
+"group": "variable",
+"type": "lineChart",
+"disabled": [ true, true, false, true ],
+"id": "chart35d3d4dcf4e" 
+},
+        data = [
+ {
+ "Year": 1990,
+"variable": "Molecular Epidemiology",
+"value": 60 
+},
+{
+ "Year": 1991,
+"variable": "Molecular Epidemiology",
+"value": 75 
+},
+{
+ "Year": 1992,
+"variable": "Molecular Epidemiology",
+"value": 108 
+},
+{
+ "Year": 1993,
+"variable": "Molecular Epidemiology",
+"value": 131 
+},
+{
+ "Year": 1994,
+"variable": "Molecular Epidemiology",
+"value": 150 
+},
+{
+ "Year": 1995,
+"variable": "Molecular Epidemiology",
+"value": 174 
+},
+{
+ "Year": 1996,
+"variable": "Molecular Epidemiology",
+"value": 217 
+},
+{
+ "Year": 1997,
+"variable": "Molecular Epidemiology",
+"value": 209 
+},
+{
+ "Year": 1998,
+"variable": "Molecular Epidemiology",
+"value": 242 
+},
+{
+ "Year": 1999,
+"variable": "Molecular Epidemiology",
+"value": 293 
+},
+{
+ "Year": 2000,
+"variable": "Molecular Epidemiology",
+"value": 301 
+},
+{
+ "Year": 2001,
+"variable": "Molecular Epidemiology",
+"value": 273 
+},
+{
+ "Year": 2002,
+"variable": "Molecular Epidemiology",
+"value": 336 
+},
+{
+ "Year": 2003,
+"variable": "Molecular Epidemiology",
+"value": 381 
+},
+{
+ "Year": 2004,
+"variable": "Molecular Epidemiology",
+"value": 348 
+},
+{
+ "Year": 2005,
+"variable": "Molecular Epidemiology",
+"value": 314 
+},
+{
+ "Year": 2006,
+"variable": "Molecular Epidemiology",
+"value": 376 
+},
+{
+ "Year": 2007,
+"variable": "Molecular Epidemiology",
+"value": 423 
+},
+{
+ "Year": 2008,
+"variable": "Molecular Epidemiology",
+"value": 392 
+},
+{
+ "Year": 2009,
+"variable": "Molecular Epidemiology",
+"value": 431 
+},
+{
+ "Year": 2010,
+"variable": "Molecular Epidemiology",
+"value": 409 
+},
+{
+ "Year": 2011,
+"variable": "Molecular Epidemiology",
+"value": 452 
+},
+{
+ "Year": 2012,
+"variable": "Molecular Epidemiology",
+"value": 414 
+},
+{
+ "Year": 2013,
+"variable": "Molecular Epidemiology",
+"value": 408 
+},
+{
+ "Year": 2014,
+"variable": "Molecular Epidemiology",
+"value": 332 
+},
+{
+ "Year": 1990,
+"variable": "Genetic Epidemiology",
+"value": 40 
+},
+{
+ "Year": 1991,
+"variable": "Genetic Epidemiology",
+"value": 46 
+},
+{
+ "Year": 1992,
+"variable": "Genetic Epidemiology",
+"value": 43 
+},
+{
+ "Year": 1993,
+"variable": "Genetic Epidemiology",
+"value": 54 
+},
+{
+ "Year": 1994,
+"variable": "Genetic Epidemiology",
+"value": 61 
+},
+{
+ "Year": 1995,
+"variable": "Genetic Epidemiology",
+"value": 48 
+},
+{
+ "Year": 1996,
+"variable": "Genetic Epidemiology",
+"value": 69 
+},
+{
+ "Year": 1997,
+"variable": "Genetic Epidemiology",
+"value": 83 
+},
+{
+ "Year": 1998,
+"variable": "Genetic Epidemiology",
+"value": 62 
+},
+{
+ "Year": 1999,
+"variable": "Genetic Epidemiology",
+"value": 93 
+},
+{
+ "Year": 2000,
+"variable": "Genetic Epidemiology",
+"value": 99 
+},
+{
+ "Year": 2001,
+"variable": "Genetic Epidemiology",
+"value": 100 
+},
+{
+ "Year": 2002,
+"variable": "Genetic Epidemiology",
+"value": 122 
+},
+{
+ "Year": 2003,
+"variable": "Genetic Epidemiology",
+"value": 106 
+},
+{
+ "Year": 2004,
+"variable": "Genetic Epidemiology",
+"value": 138 
+},
+{
+ "Year": 2005,
+"variable": "Genetic Epidemiology",
+"value": 124 
+},
+{
+ "Year": 2006,
+"variable": "Genetic Epidemiology",
+"value": 117 
+},
+{
+ "Year": 2007,
+"variable": "Genetic Epidemiology",
+"value": 113 
+},
+{
+ "Year": 2008,
+"variable": "Genetic Epidemiology",
+"value": 89 
+},
+{
+ "Year": 2009,
+"variable": "Genetic Epidemiology",
+"value": 97 
+},
+{
+ "Year": 2010,
+"variable": "Genetic Epidemiology",
+"value": 94 
+},
+{
+ "Year": 2011,
+"variable": "Genetic Epidemiology",
+"value": 90 
+},
+{
+ "Year": 2012,
+"variable": "Genetic Epidemiology",
+"value": 99 
+},
+{
+ "Year": 2013,
+"variable": "Genetic Epidemiology",
+"value": 108 
+},
+{
+ "Year": 2014,
+"variable": "Genetic Epidemiology",
+"value": 71 
+},
+{
+ "Year": 1990,
+"variable": "Genomic Epidemiology",
+"value": 0 
+},
+{
+ "Year": 1991,
+"variable": "Genomic Epidemiology",
+"value": 2 
+},
+{
+ "Year": 1992,
+"variable": "Genomic Epidemiology",
+"value": 1 
+},
+{
+ "Year": 1993,
+"variable": "Genomic Epidemiology",
+"value": 2 
+},
+{
+ "Year": 1994,
+"variable": "Genomic Epidemiology",
+"value": 4 
+},
+{
+ "Year": 1995,
+"variable": "Genomic Epidemiology",
+"value": 1 
+},
+{
+ "Year": 1996,
+"variable": "Genomic Epidemiology",
+"value": 1 
+},
+{
+ "Year": 1997,
+"variable": "Genomic Epidemiology",
+"value": 2 
+},
+{
+ "Year": 1998,
+"variable": "Genomic Epidemiology",
+"value": 3 
+},
+{
+ "Year": 1999,
+"variable": "Genomic Epidemiology",
+"value": 2 
+},
+{
+ "Year": 2000,
+"variable": "Genomic Epidemiology",
+"value": 4 
+},
+{
+ "Year": 2001,
+"variable": "Genomic Epidemiology",
+"value": 5 
+},
+{
+ "Year": 2002,
+"variable": "Genomic Epidemiology",
+"value": 4 
+},
+{
+ "Year": 2003,
+"variable": "Genomic Epidemiology",
+"value": 8 
+},
+{
+ "Year": 2004,
+"variable": "Genomic Epidemiology",
+"value": 5 
+},
+{
+ "Year": 2005,
+"variable": "Genomic Epidemiology",
+"value": 6 
+},
+{
+ "Year": 2006,
+"variable": "Genomic Epidemiology",
+"value": 3 
+},
+{
+ "Year": 2007,
+"variable": "Genomic Epidemiology",
+"value": 8 
+},
+{
+ "Year": 2008,
+"variable": "Genomic Epidemiology",
+"value": 9 
+},
+{
+ "Year": 2009,
+"variable": "Genomic Epidemiology",
+"value": 7 
+},
+{
+ "Year": 2010,
+"variable": "Genomic Epidemiology",
+"value": 10 
+},
+{
+ "Year": 2011,
+"variable": "Genomic Epidemiology",
+"value": 7 
+},
+{
+ "Year": 2012,
+"variable": "Genomic Epidemiology",
+"value": 10 
+},
+{
+ "Year": 2013,
+"variable": "Genomic Epidemiology",
+"value": 20 
+},
+{
+ "Year": 2014,
+"variable": "Genomic Epidemiology",
+"value": 21 
+},
+{
+ "Year": 1990,
+"variable": "Traditional Epidemiology",
+"value": 2150 
+},
+{
+ "Year": 1991,
+"variable": "Traditional Epidemiology",
+"value": 2210 
+},
+{
+ "Year": 1992,
+"variable": "Traditional Epidemiology",
+"value": 2350 
+},
+{
+ "Year": 1993,
+"variable": "Traditional Epidemiology",
+"value": 2360 
+},
+{
+ "Year": 1994,
+"variable": "Traditional Epidemiology",
+"value": 2670 
+},
+{
+ "Year": 1995,
+"variable": "Traditional Epidemiology",
+"value": 2690 
+},
+{
+ "Year": 1996,
+"variable": "Traditional Epidemiology",
+"value": 2860 
+},
+{
+ "Year": 1997,
+"variable": "Traditional Epidemiology",
+"value": 2750 
+},
+{
+ "Year": 1998,
+"variable": "Traditional Epidemiology",
+"value": 3040 
+},
+{
+ "Year": 1999,
+"variable": "Traditional Epidemiology",
+"value": 3070 
+},
+{
+ "Year": 2000,
+"variable": "Traditional Epidemiology",
+"value": 3380 
+},
+{
+ "Year": 2001,
+"variable": "Traditional Epidemiology",
+"value": 3260 
+},
+{
+ "Year": 2002,
+"variable": "Traditional Epidemiology",
+"value": 3210 
+},
+{
+ "Year": 2003,
+"variable": "Traditional Epidemiology",
+"value": 3470 
+},
+{
+ "Year": 2004,
+"variable": "Traditional Epidemiology",
+"value": 3750 
+},
+{
+ "Year": 2005,
+"variable": "Traditional Epidemiology",
+"value": 3790 
+},
+{
+ "Year": 2006,
+"variable": "Traditional Epidemiology",
+"value": 3950 
+},
+{
+ "Year": 2007,
+"variable": "Traditional Epidemiology",
+"value": 4140 
+},
+{
+ "Year": 2008,
+"variable": "Traditional Epidemiology",
+"value": 4120 
+},
+{
+ "Year": 2009,
+"variable": "Traditional Epidemiology",
+"value": 4180 
+},
+{
+ "Year": 2010,
+"variable": "Traditional Epidemiology",
+"value": 4080 
+},
+{
+ "Year": 2011,
+"variable": "Traditional Epidemiology",
+"value": 4080 
+},
+{
+ "Year": 2012,
+"variable": "Traditional Epidemiology",
+"value": 4250 
+},
+{
+ "Year": 2013,
+"variable": "Traditional Epidemiology",
+"value": 4150 
+},
+{
+ "Year": 2014,
+"variable": "Traditional Epidemiology",
+"value": 3020 
+} 
+]
+  
+      if(!(opts.type==="pieChart" || opts.type==="sparklinePlus" || opts.type==="bulletChart")) {
+        var data = d3.nest()
+          .key(function(d){
+            //return opts.group === undefined ? 'main' : d[opts.group]
+            //instead of main would think a better default is opts.x
+            return opts.group === undefined ? opts.y : d[opts.group];
+          })
+          .entries(data);
+      }
+      
+      if (opts.disabled != undefined){
+        data.map(function(d, i){
+          d.disabled = opts.disabled[i]
+        })
+      }
+      
+      nv.addGraph(function() {
+        var chart = nv.models[opts.type]()
+          .width(opts.width)
+          .height(opts.height)
+          
+        if (opts.type != "bulletChart"){
+          chart
+            .x(function(d) { return d[opts.x] })
+            .y(function(d) { return d[opts.y] })
+        }
+          
+         
+        
+          
+        chart.xAxis
+  .axisLabel("Year")
+
+        
+        
+        chart.yAxis
+  .axisLabel("Total Citations")
+      
+       d3.select("#" + opts.id)
+        .append('svg')
+        .datum(data)
+        .transition().duration(500)
+        .call(chart);
+
+       nv.utils.windowResize(chart.update);
+       return chart;
+      });
+    };
+</script>
+    
+    <script></script>    
+  </body>
+</html>

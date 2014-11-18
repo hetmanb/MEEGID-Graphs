@@ -1,0 +1,101 @@
+Year	Variable	Value 	Delta
+1990	"Molecular Epidemiology" 	60	0
+1991	"Molecular Epidemiology" 	75	0.25
+1992	"Molecular Epidemiology" 	108	0.44
+1993	"Molecular Epidemiology" 	131	0.212962963
+1994	"Molecular Epidemiology" 	150	0.145038168
+1995	"Molecular Epidemiology" 	174	0.16
+1996	"Molecular Epidemiology" 	217	0.247126437
+1997	"Molecular Epidemiology" 	209	-0.036866359
+1998	"Molecular Epidemiology" 	242	0.157894737
+1999	"Molecular Epidemiology" 	293	0.210743802
+2000	"Molecular Epidemiology" 	301	0.027303754
+2001	"Molecular Epidemiology" 	273	-0.093023256
+2002	"Molecular Epidemiology" 	336	0.230769231
+2003	"Molecular Epidemiology" 	381	0.133928571
+2004	"Molecular Epidemiology" 	348	-0.086614173
+2005	"Molecular Epidemiology" 	314	-0.097701149
+2006	"Molecular Epidemiology" 	376	0.197452229
+2007	"Molecular Epidemiology" 	423	0.125
+2008	"Molecular Epidemiology" 	392	-0.073286052
+2009	"Molecular Epidemiology" 	431	0.099489796
+2010	"Molecular Epidemiology" 	409	-0.051044084
+2011	"Molecular Epidemiology" 	452	0.105134474
+2012	"Molecular Epidemiology" 	414	-0.084070796
+2013	"Molecular Epidemiology" 	408	-0.014492754
+2014	"Molecular Epidemiology" 	332	-0.18627451
+1990	"Genetic Epidemiology"	40	0
+1991	"Genetic Epidemiology"	46	0.15
+1992	"Genetic Epidemiology"	43	-0.065217391
+1993	"Genetic Epidemiology"	54	0.255813953
+1994	"Genetic Epidemiology"	61	0.12962963
+1995	"Genetic Epidemiology"	48	-0.213114754
+1996	"Genetic Epidemiology"	69	0.4375
+1997	"Genetic Epidemiology"	83	0.202898551
+1998	"Genetic Epidemiology"	62	-0.253012048
+1999	"Genetic Epidemiology"	93	0.5
+2000	"Genetic Epidemiology"	99	0.064516129
+2001	"Genetic Epidemiology"	100	0.01010101
+2002	"Genetic Epidemiology"	122	0.22
+2003	"Genetic Epidemiology"	106	-0.131147541
+2004	"Genetic Epidemiology"	138	0.301886792
+2005	"Genetic Epidemiology"	124	-0.101449275
+2006	"Genetic Epidemiology"	117	-0.056451613
+2007	"Genetic Epidemiology"	113	-0.034188034
+2008	"Genetic Epidemiology"	89	-0.212389381
+2009	"Genetic Epidemiology"	97	0.08988764
+2010	"Genetic Epidemiology"	94	-0.030927835
+2011	"Genetic Epidemiology"	90	-0.042553191
+2012	"Genetic Epidemiology"	99	0.1
+2013	"Genetic Epidemiology"	108	0.090909091
+2014	"Genetic Epidemiology"	71	-0.342592593
+1990	"Genomic Epidemiology"	0	0
+1991	"Genomic Epidemiology"	2	0
+1992	"Genomic Epidemiology"	1	-0.5
+1993	"Genomic Epidemiology"	2	1
+1994	"Genomic Epidemiology"	4	1
+1995	"Genomic Epidemiology"	1	-0.75
+1996	"Genomic Epidemiology"	1	0
+1997	"Genomic Epidemiology"	2	1
+1998	"Genomic Epidemiology"	3	0.5
+1999	"Genomic Epidemiology"	2	-0.333333333
+2000	"Genomic Epidemiology"	4	1
+2001	"Genomic Epidemiology"	5	0.25
+2002	"Genomic Epidemiology"	4	-0.2
+2003	"Genomic Epidemiology"	8	1
+2004	"Genomic Epidemiology"	5	-0.375
+2005	"Genomic Epidemiology"	6	0.2
+2006	"Genomic Epidemiology"	3	-0.5
+2007	"Genomic Epidemiology"	8	1.666666667
+2008	"Genomic Epidemiology"	9	0.125
+2009	"Genomic Epidemiology"	7	-0.222222222
+2010	"Genomic Epidemiology"	10	0.428571429
+2011	"Genomic Epidemiology"	7	-0.3
+2012	"Genomic Epidemiology"	10	0.428571429
+2013	"Genomic Epidemiology"	20	1
+2014	"Genomic Epidemiology"	21	0.05
+1990	"Epidemiology"	2150	0
+1991	"Epidemiology"	2210	0.027906977
+1992	"Epidemiology"	2350	0.063348416
+1993	"Epidemiology"	2360	0.004255319
+1994	"Epidemiology"	2670	0.131355932
+1995	"Epidemiology"	2690	0.007490637
+1996	"Epidemiology"	2860	0.063197026
+1997	"Epidemiology"	2750	-0.038461538
+1998	"Epidemiology"	3040	0.105454545
+1999	"Epidemiology"	3070	0.009868421
+2000	"Epidemiology"	3380	0.100977199
+2001	"Epidemiology"	3260	-0.035502959
+2002	"Epidemiology"	3210	-0.015337423
+2003	"Epidemiology"	3470	0.080996885
+2004	"Epidemiology"	3750	0.080691643
+2005	"Epidemiology"	3790	0.010666667
+2006	"Epidemiology"	3950	0.042216359
+2007	"Epidemiology"	4140	0.048101266
+2008	"Epidemiology"	4120	-0.004830918
+2009	"Epidemiology"	4180	0.014563107
+2010	"Epidemiology"	4080	-0.023923445
+2011	"Epidemiology"	4080	0
+2012	"Epidemiology"	4250	0.041666667
+2013	"Epidemiology"	4150	-0.023529412
+2014	"Epidemiology"	3020	-0.272289157
